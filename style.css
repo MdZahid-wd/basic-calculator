@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading-text {
+  text-align: center;
+  color: brown;
+}
+.calculate-input {
+  width: 210px;
+  height: 40px;
+  border: solid 3px;
+  border-color: black;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  margin: 5px;
+  display: flex;
+  gap: 6px;
+}
+.button {
+  width: 50px;
+  height: 60px;
+  background-color: rgb(80, 71, 71);
+  font-size: large;
+  color: antiquewhite;
+  padding: auto;
+  border-radius: 9px;
+  border: solid;
+  border-color: rgb(63, 57, 57);
+  box-shadow: 5px 5px 2px rgb(93, 81, 81);
+  cursor: pointer;
+}
+.large-button {
+  width: 105px;
+}
